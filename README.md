@@ -10,7 +10,7 @@ Each project highlights different skills in data cleaning, modeling, visualizati
 
 | Project Name              | Description                                      | Tools Used              |
 |---------------------------|--------------------------------------------------|-------------------------|
-| **Alibaba Stock Forecasting**  | Forecasting stock prices using time series analysis and machine learning models. | Python, Jupyter, Scikit-Learn |
+| **Alibaba Stock Forecasting**  | Forecasting stock prices using time series analysis. | Python, Jupyter, Scikit-Learn |
 | **Online Sales Analysis**     | Analyzing sales data to generate business insights and recommendations. | Excel, Power BI, Python |
 | **Stroke Prediction**         | Predicting stroke occurrences using classification models. | Python, Scikit-Learn, Pandas |
 | **Superstore Sales (Excel)**  | Sales dashboard and analysis using Excel features and formulas. | Excel                   |
