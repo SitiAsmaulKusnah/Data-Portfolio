@@ -1,0 +1,4 @@
+# Peramalan Harga Minyak Mentah Menggunakan Long Short-Term Memory
+
+Harga minyak mentah merupakan salah satu indikator ekonomi global yang sangat kompleks dan fluktuatif. Pergerakannya dipengaruhi oleh berbagai faktor, seperti geopolitik, penawaran dan permintaan global, kebijakan produksi OPEC, serta ekonomi makro negara-negara besar. Sifatnya yang dinamis dan dampaknya yang luas, maka prediksi harga minyak menjadi sangat penting untuk dilakukan, baik bagi pelagu industri energi, investor, maupun pembuat kebijakan.
+Di era data saat ini, pendekatan seperti model ARIMA sering kali belum cukup untuk menangkap pola non-linear yang terkandung dalam data historis harga minyak. Oleh karena itu, metode berbasis deep learning, khususnya Long Short-Term Memory (LSTM) dijadikan alternatif yang menjanjikan dalam peramalan deret waktu (time series forecasting).
