@@ -10,6 +10,7 @@ Di era data saat ini, pendekatan seperti model ARIMA sering kali belum cukup unt
   
 ## 🔎 Metodologi
 - Model
+  
   Long Short-Term Memory (LSTM) merupakan salah satu modifikasi dari Recurrent Neural network (RNN) yang mampu menangani ketergantungan jangka panjang dalam data berurutan. LSTM mampu mengatasi masalah vanishing gradient yang sering terjadi pada RNN tradisional dengan memperkenalkan sel memori yang dapat menyimpan informasi dalam waktu yang lama.
   Arsitektur LSTM melibatkan sel memori yang dikontrol oleh tiga gate, input gate, forget gate, dan output gate.
   - Input gate: mengontrol informasi apa yang ditambahkan ke dalam sel memori
