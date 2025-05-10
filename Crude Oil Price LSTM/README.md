@@ -20,25 +20,51 @@ Hal ini memungkinkan jaringan LSTM untuk secara selektif mempertahankan atau mem
   Arsitektur LSTM memiliki struktur rantai yang berisi empat jaringan saraf dan blok memori yang berbeda yang disebut sel. Berikut adalah arsitektur model LSTM.
 ![image](https://github.com/user-attachments/assets/644db34b-3cf4-4b2c-917a-8f32397bf535)
 
-    
-
 - Langkah-langkah:
-    - Preprocessing Data
-    (Normalisasi data, pembentukan sequence, dan pembagian data latih dan uji)
+  - Preprocessing Data
+    - Pengecekan missing value dan data duplikat.
+    - Konversi kolom date ke format datetime dan dijadikan index DataFrame.
+    - Normalisasi menggunakan MinMaxScaler() agar skala data seragam.
+    - Pembentukan sequence untuk input LSTM.
+    - Pembagian data:
+        - Train (1983-2018): Melatih model dari pola historis.
+        - Validation (2019-2021): Tuning parameter dan evaluasi saat krisis (COVID-19).
+        - Test (2022-2025): Mengukur performa model pada data terbaru.
+      
   - Pembuatan Model LSTM
     (Arsitektur model, jumlah neuron, activation function, dll.)
   - Regularisasi
-    (Penggunaan dropout untuk mengurangi overfitting)
+    Menggunakan dropout untuk mengurangi risiko overfitting pada model.
   - Evaluasi Model
-    (Menggunakan metrik RMSE, MAE, serta visualisasi prediksi vs aktual)Preprocessing Data
-  
+    
+    Evaluasi model dilakukan menggunakan data testing, yaitu data yang tidak digunakan saat proses pelatihan model. Tujuannya adalah untuk mengukur seberapa baik model mampu memprediksi data baru yang belum pernah dilihat sebelumnya. Dalam proyek ini, saya menggunakan dua metrik evaluasi utama:
+    - MAE (Mean Absolute Error): Mengukur rata-rata selisih absolut antara nilai prediksi dan nilai aktual. Semakin kecil MAE, semakin akurat model.
+    - RMSE (Root Mean Square Error): Mengukur akar dari rata-rata selisih kuadrat antara prediksi dan aktual. RMSE lebih sensitif terhadap kesalahan besar (outlier), sehingga memberikan gambaran seberapa besar deviasi prediksi dari nilai asli.
+      
 ## 📈 Hasil Analisis
 - Grafik
   - Plot Data Historis
+    ![1-Data Crude Oil Price](https://github.com/user-attachments/assets/424a86d1-e13a-4470-b0e8-e40c52e88286)
+
   - Plot Loss Training & Validation
-  - Plot Prediksi vs Aktual
+    - Plot tanpa regularisasi
+      ![2-Train-Val-Loss](https://github.com/user-attachments/assets/4fa4eddc-f3a0-4e82-8983-aa5c9819fa45) 
+    - Plot dengan regularisasi
+      ![5-Train-Val-Loss-Regularization](https://github.com/user-attachments/assets/6e50f563-10ad-4103-aa97-08bf0be3cece)
     
-- Tabel Metrik Evaluasi
+  - Plot Prediksi vs Aktual
+    - Plot tanpa regularisasi
+    ![4-Prediction_vs_Actual_All](https://github.com/user-attachments/assets/b56278ef-38ad-4720-8a0d-64cde494f6a8)
+    - Plot dengan regularisasi
+    ![7-Prediction_vs_Actual_AllRegularization](https://github.com/user-attachments/assets/ab6e6272-38e7-45f5-a370-02e9d58ba13b)
+
+    
+- Metrik Evaluasi
+     
+    | Model                      | MAE    | RMSE   |
+    |----------------------------|--------|--------|
+    | Tanpa Regularisasi (No Dropout) | 4.51  | 5.44  |
+    | Dengan Regularisasi (Dropout)   | 5.46  | 6.58  |
 
 - Analisis 
   - Apakah prediksi mendekati harga asli?
