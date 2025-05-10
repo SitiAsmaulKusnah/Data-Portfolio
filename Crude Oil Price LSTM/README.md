@@ -50,13 +50,13 @@ Hal ini memungkinkan jaringan LSTM untuk secara selektif mempertahankan atau mem
     - Plot tanpa regularisasi
       ![2-Train-Val-Loss](https://github.com/user-attachments/assets/4fa4eddc-f3a0-4e82-8983-aa5c9819fa45) 
     - Plot dengan regularisasi
-      ![5-Train-Val-Loss-Regularization](https://github.com/user-attachments/assets/6e50f563-10ad-4103-aa97-08bf0be3cece)
+     ![5-Train-Val-Loss-Regularization](https://github.com/user-attachments/assets/78e1862b-2acc-43a2-a04d-9e389b4e47f1)
     
   - Plot Prediksi vs Aktual
     - Plot tanpa regularisasi
     ![4-Prediction_vs_Actual_All](https://github.com/user-attachments/assets/b56278ef-38ad-4720-8a0d-64cde494f6a8)
     - Plot dengan regularisasi
-    ![7-Prediction_vs_Actual_AllRegularization](https://github.com/user-attachments/assets/ab6e6272-38e7-45f5-a370-02e9d58ba13b)
+    ![7-Prediction_vs_Actual_AllRegularization](https://github.com/user-attachments/assets/c7c171e4-64c0-4422-90d0-51112f2a82f3)
 
     
 - Metrik Evaluasi
@@ -64,7 +64,7 @@ Hal ini memungkinkan jaringan LSTM untuk secara selektif mempertahankan atau mem
     | Model                      | MAE    | RMSE   |
     |----------------------------|--------|--------|
     | Tanpa Regularisasi (No Dropout) | 4.51  | 5.44  |
-    | Dengan Regularisasi (Dropout)   | 5.46  | 6.58  |
+    | Dengan Regularisasi (Dropout)   | 5.18  | 6.71  |
 
 - Analisis 
   - Apakah prediksi mendekati harga asli?
