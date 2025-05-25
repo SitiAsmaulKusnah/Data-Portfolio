@@ -75,7 +75,7 @@ Margin keuntungan: 12,46%, menunjukkan bahwa bisnis ini cukup menguntungkan.
 - Hal ini menunjukkan bahwa Consumer memberikan kontribusi terbesar pada tahun 2017.
 
 ### Q6: Kategori dan subkategori produk mana yang paling signifikan dalam menghasilkan keuntungan pada tahun 2017?
-- Kategori Technology menyumbang 54,24% dari total keuntungan dengan subkategori Copiers mencatatkan profit tertinggi sebesar 26,79%. Sebaliknya, subkategori machines mengakali kerugian hingga -3,07%.
+- Kategori Technology menyumbang 54,24% dari total keuntungan dengan subkategori Copiers mencatatkan profit tertinggi sebesar 26,79%. Sebaliknya, subkategori machines mengalami kerugian hingga -3,07%.
 - Kategori Supplies menyusul di posisi kedua dengan kontribusi 42,53% terhadap total profit. Subkategori Paper berperan dominan dengan sumbangan profit sebesar 12,89%, sedangkan Supplies mencatatkan kerugian hingga -1,02%.
 - Kategori Furniture berada di posisi terakhir dengan kontribusi profit hanya 3,23%. Chairs menjadi subkategori yang paling menguntungkan dalam kelompok ini dengan kontribusi 8,18%, sementara Tables mengalami kerugian terbesar di antara semua subkategori, yakni -8,71%.
 
