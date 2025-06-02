@@ -10,11 +10,13 @@ Each project highlights different skills in data cleaning, modeling, visualizati
 
 | Project Name              | Description                                      | Tools Used              |
 |---------------------------|--------------------------------------------------|-------------------------|
-| **Alibaba Stock Forecasting**  | Forecasting stock prices using time series analysis. | Python, Jupyter, Scikit-Learn |
-| **Online Sales Analysis**     | Analyzing sales data to generate business insights and recommendations. | Excel, Power BI, Python |
-| **Stroke Prediction**         | Predicting stroke occurrences using classification models. | Python, Scikit-Learn, Pandas |
-| **Superstore Sales (Excel)**  | Sales dashboard and analysis using Excel features and formulas. | Excel                   |
-| **Titanic Survival Prediction** | Classic machine learning classification to predict survival on the Titanic. | Python, Scikit-Learn    |
+| **Alibaba Stock Forecasting**  | Time series analysis to forecast Alibaba stock prices and identify trends. | Minitab |
+| **Crude Oil Price LSTM** | Forecasting crude oil prices using LSTM-based deep learning on historical data. | Python, TensorFlow, Pandas    |
+| **Online Sales**     | Analyzing sales data to generate business insights and recommendations. | Excel, Power BI, Python |
+| **Stroke Prediction**         | Predicting stroke occurrences using classification models. | SPSS, Excel |
+| **Superstore Sales (Excel)**  | Performed sales analysis using PivotTables, formulas, and data cleaning in Excel. | Excel       |
+| **Titanic** | Machine learning classification project to predict passenger survival on the Titanic dataset. | Python, Scikit-Learn    |
+
 
 ---
 
