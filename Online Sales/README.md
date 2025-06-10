@@ -33,6 +33,7 @@ Data preprocessing is a process of data preparation and cleaning that aims to en
 #### Merged the Orders.csv (df_orders) and Details.csv (df_details) dataframes
 
 The two dataframes are merged into one based on the Order ID column using the inner join method. The pandas function pd.merge() is used to merge two dataframes. Using inner join means that only the data that has a matching Order ID in both dataframes will be inserted into the result dataframe (df). Why use inner join? Inner join only joins data that has a match in both tables so the result is cleaner and focuses on information that has a direct relationship. It also helps avoid empty data from one of the tables.
+
 ![image](https://github.com/user-attachments/assets/323ad4b6-58d1-465e-8051-751b5e7ba149)
 
 ## 📊 Data Visualization
@@ -56,10 +57,10 @@ K-Means is used for customer segmentation based on purchasing behavior in order 
 - Detect low-performing customer segments with potential for growth through targeted engagement
 
 #### Metrics:
-Amount: Total amount of money spent by the customer
-Profit: Total profit of the customer
-Order ID: The number of orders placed by the customer
-Quantity: Number of product units purchased by the customer
+- Amount: Total amount of money spent by the customer
+- Profit: Total profit of the customer
+- Order ID: The number of orders placed by the customer
+- Quantity: Number of product units purchased by the customer
 
 #### Optimal Cluster Selection
 <p align="center">
@@ -67,6 +68,7 @@ Quantity: Number of product units purchased by the customer
   &nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/813930a4-5e2a-45db-888f-0f6ae4463625" width="45%">
 </p>
+
 Determining the optimal number of clusters is based on Silhouette scores and the Elbow method. The optimal number of clusters based on the Silhouette score is 2 because it has a score of more than 0.5 while based on the Elbow method is 4. In this analysis, 2 clusters were selected.
 
 #### Result
@@ -75,6 +77,7 @@ Determining the optimal number of clusters is based on Silhouette scores and the
   &nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/90d06e0b-c85f-49a6-9b89-4fc3f0a34d96" width="45%">
 </p>
+
 - Cluster 0 (Blue):
  Represents customers with lower total spending (Amount), lower profit contributions, and fewer product units purchased.
 These customers may be infrequent buyers or price-sensitive segments, and are potential targets for engagement strategies aimed at increasing order size and purchase frequency.
